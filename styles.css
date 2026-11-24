@@ -1,23 +1,27 @@
-h1{
+h1 {
     font-family: "Sour Gummy", sans-serif;
     font-size: 36px;
 
     /* with variable fonts, you have much more flexibility with the style of your font */
     font-weight: 100;
 
+    /* font-variation-settings is a catch-all for all settings outside of weight and italics */
+    font-variation-settings: "wdth" 100;
+
     /* this is for an animation */
     transition: all 3s;
 }
 
-h1:hover{
+h1:hover {
     font-weight: 900;
+    font-variation-settings: "wdth" 125;
 }
 
-h3{
+h3 {
     font-family: "Mystery Quest", system-ui;
     font-size: 24px;
 }
 
-p{
+p {
     font-family: "PT Serif", serif;
 }
