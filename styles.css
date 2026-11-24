@@ -25,3 +25,9 @@ h3 {
 p {
     font-family: "PT Serif", serif;
 }
+
+.maps {
+    when you size an inframe, you have to 
+    width: 900vw;;
+    height: 30vw;
+}
