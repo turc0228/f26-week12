@@ -27,7 +27,7 @@ p {
 }
 
 .maps {
-    when you size an inframe, you have to 
-    width: 900vw;;
+    /* when you size an iframe, you have to do both width and height  */
+    width: 50vw;
     height: 30vw;
 }
